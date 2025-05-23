@@ -1,1 +1,1 @@
-// Final App.tsx from LMS canvas goes here
+// LMS App.tsx from canvas goes here
