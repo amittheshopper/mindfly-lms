@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App'; // Import your App component
-import './index.css'; // (Optional, if you have a CSS file)
+import ReactDOM from 'react-dom/client';
 
-ReactDOM.render(
+const App = () => <h1>Welcome to MindFly LMS</h1>;
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('app') // This should match the div in index.html
+  </React.StrictMode>
 );
